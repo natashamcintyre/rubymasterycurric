@@ -24,6 +24,7 @@ while room < 3
       end
     end
   end
+  # alternative to nested loops:
   # elsif room == 2
   #   if user_input == "look"
   #     puts "You are in a warm and cosy study. You see a safe. You see a desk."

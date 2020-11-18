@@ -1,5 +1,5 @@
-
-  $card_hash = {
+# $ needed to make the variable accessible to all methods
+$card_hash = {
     "two" => 2,
     "three" => 3,
     "four" => 4,
@@ -17,11 +17,11 @@
 
 def score(hand)
   total_score = 0
-  puts hand # This works
+  puts hand
 
   hand.each do |card|
-    puts $card_hash[card] # This doesn't!
-    # total_score += card_hash[card]
+    puts $card_hash[card]
+    total_score += card_hash[card]
   end
 
 end
