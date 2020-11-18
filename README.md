@@ -9,7 +9,7 @@ Command line use.
 ruby <filename>.rb
 ```
 
-## Lessons learned ##
+## Takeaways ##
 
 Loops within loops - is there a better way to do this?  
 Make sure all options are covered, particularly with user input.  
